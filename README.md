@@ -1,1 +1,1 @@
-# General-Labs
+# Generic-Labs
