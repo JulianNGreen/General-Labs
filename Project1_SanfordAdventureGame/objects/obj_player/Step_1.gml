@@ -7,28 +7,9 @@ var numPress = getNumPress();
 if (numPress != -1)
 {
 	show_debug_message("numPress: {0}", numPress);
-	with(player_inv)
-	{
-		select(numPress);
-		currItem = get(numPress);
-	}
+	player_inv.select(numPress);
+	currItem = player_inv.get(numPress);
 }
-
-#region Pickup
-// Check for target
-if (!pickupTarget)
-{
-	with(obj_item)
-	{
-		var item_distance = point_distance(x,y,other.x,other.y);
-		if (item_distance < MAX_PICKUP_DISTANCE)
-		{
-			other.pickupTarget = id;
-		}
-	}
-}
-
-#endregion
 
 #endregion
 
