@@ -5,18 +5,33 @@
 // "GameMaker Casts". "Creating a Simple Inventory System in GameMaker - Tutorial". YouTube.
 // https://www.youtube.com/watch?v=qiz-wt7Mb9g
 
+function getNumPress()
+{
+	var numPressed = -1;
+	for (var i = 1; i < 10; i++)
+	{
+		var str = string("{0}",i);
+		if (keyboard_check_pressed(ord(str)))
+		{
+			show_debug_message(str);
+			numPressed = i;
+			break;
+		}
+	}
+	return numPressed
+}
+
 function Inventory(maxItems = 5) constructor
 {
 	inventory = [];
 	inventory_maxItems = maxItems;
 	
 	#region Setters
-	add = function(spr,nm,obj)
+	add = function(nm,obj)
 	{
 		if (array_length(inventory) < inventory_maxItems)
 		{
 			array_push(inventory,{
-				sprite: spr,
 				name: nm,
 				object: obj,
 				hover: false
@@ -31,11 +46,12 @@ function Inventory(maxItems = 5) constructor
 	getAll = function() {return inventory;}
 	get = function(index) 
 	{
-		if (index < inventory_maxItems) {return inventory[index];}
+		if (isInInventory(index)) {return inventory[index];}
 	}
 	select = function(index) 
 	{
-		if (index < inventory_maxItems)
+		show_debug_message("Accessing inventory...");
+		if (isInInventory(index))
 		{
 			deselect();
 			inventory[index].hover = true;
@@ -46,6 +62,17 @@ function Inventory(maxItems = 5) constructor
 		for (var i = 0; i < array_length(inventory); i++)
 		{
 			inventory[i].hover = false;
+		}
+	}
+	isInInventory = function(index)
+	{
+		if(index < inventory_maxItems && index < array_length(inventory))
+		{
+			return true;
+		}
+		else
+		{
+			return false;
 		}
 	}
 	
