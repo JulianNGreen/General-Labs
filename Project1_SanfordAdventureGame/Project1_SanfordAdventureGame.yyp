@@ -39,7 +39,6 @@
     {"id":{"name":"obj_inventory","path":"objects/obj_inventory/obj_inventory.yy",},},
     {"id":{"name":"obj_item","path":"objects/obj_item/obj_item.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
-    {"id":{"name":"rm_hub","path":"rooms/rm_hub/rm_hub.yy",},},
     {"id":{"name":"script_inventory_items","path":"scripts/script_inventory_items/script_inventory_items.yy",},},
     {"id":{"name":"script_inventory","path":"scripts/script_inventory/script_inventory.yy",},},
     {"id":{"name":"spr_block","path":"sprites/spr_block/spr_block.yy",},},
@@ -53,9 +52,7 @@
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
-  "RoomOrderNodes":[
-    {"roomId":{"name":"rm_hub","path":"rooms/rm_hub/rm_hub.yy",},},
-  ],
+  "RoomOrderNodes":[],
   "templateType":"game",
   "TextureGroups":[
     {"$GMTextureGroup":"","%Name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","customOptions":"","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"name":"Default","resourceType":"GMTextureGroup","resourceVersion":"2.0","targets":-1,},
