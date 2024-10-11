@@ -20,6 +20,12 @@ if (moveVector_x == 0 || moveVector_y == 0)
 		if (sprite_index != spr_player_side) {sprite_index = spr_player_side;}
 		image_xscale = sign(moveVector_x);
 	}
+	if(moveVector_y == 0 and moveVector_x == 0) {
+		image_speed = 0;
+		image_index = 0;
+	}else {
+		image_speed = 1;
+	}
 }
 
 #endregion
