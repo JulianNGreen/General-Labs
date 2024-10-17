@@ -3,7 +3,8 @@
 
 item_id = {
 	name: "item_test",
-	object: object_index
+	object: object_index,
+	sprite: sprite_index
 };
 
 depth = 1;

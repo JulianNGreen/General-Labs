@@ -16,16 +16,24 @@ if (numPress != -1)
 
 #region Pickup
 // Check for target
-if (!pickupTarget)
+with(obj_item)
 {
-	with(obj_item)
+	var item_distance = point_distance(x,y,other.x,other.y);
+	if (item_distance < MAX_PICKUP_DISTANCE)
 	{
-		var item_distance = point_distance(x,y,other.x,other.y);
-		if (item_distance < MAX_PICKUP_DISTANCE)
-		{
-			other.pickupTarget = id;
-		}
+		other.pickupTarget = id;
 	}
+	else
+	{
+		other.pickupTarget = noone;
+	}
+}
+
+if (pickupTarget && keyboard_check_pressed(ord("E")))
+{
+	var item = layer_instance_get_instance(pickupTarget);
+	player_inv.add(item.item_id.name,item.item_id.object,item.item_id.sprite);
+	instance_destroy(item);
 }
 
 #endregion
