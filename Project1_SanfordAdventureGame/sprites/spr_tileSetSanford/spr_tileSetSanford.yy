@@ -2,7 +2,7 @@
   "$GMSprite":"",
   "%Name":"spr_tileSetSanford",
   "bboxMode":0,
-  "bbox_bottom":111,
+  "bbox_bottom":127,
   "bbox_left":0,
   "bbox_right":127,
   "bbox_top":0,
