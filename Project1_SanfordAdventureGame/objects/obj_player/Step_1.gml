@@ -9,23 +9,33 @@ if (numPress != -1)
 	show_debug_message("numPress: {0}", numPress);
 	with(player_inv)
 	{
-		select(numPress);
-		currItem = get(numPress);
+		select(numPress-1);
+		currItem = get(numPress-1);
 	}
 }
 
 #region Pickup
 // Check for target
-with(obj_item)
+if (!pickupTarget)
 {
-	var item_distance = point_distance(x,y,other.x,other.y);
-	if (item_distance < MAX_PICKUP_DISTANCE)
+	with(obj_item)
 	{
-		other.pickupTarget = id;
+		var item_distance = point_distance(x,y,other.x,other.y);
+		if (item_distance < MAX_PICKUP_DISTANCE)
+		{
+			other.pickupTarget = id;
+		}
 	}
-	else
+}
+else
+{
+	with(pickupTarget)
 	{
-		other.pickupTarget = noone;
+		var item_distance = point_distance(x,y,other.x,other.y);
+		if (item_distance > MAX_PICKUP_DISTANCE)
+		{
+			other.pickupTarget = noone;
+		}
 	}
 }
 
