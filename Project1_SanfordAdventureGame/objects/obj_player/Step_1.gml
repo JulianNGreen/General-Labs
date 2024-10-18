@@ -1,4 +1,4 @@
-/// @description Movement and collisions
+/// @description Movement, inventory and collisions
 // You can write your code in this editor
 
 #region Inventory
