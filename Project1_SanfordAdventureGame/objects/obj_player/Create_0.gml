@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-#macro MAX_PICKUP_DISTANCE 8
+#macro MAX_PICKUP_DISTANCE 16
 
 #region Sprite Initialization
 depth = 0;
