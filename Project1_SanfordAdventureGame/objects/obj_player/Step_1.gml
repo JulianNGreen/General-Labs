@@ -31,9 +31,10 @@ with(obj_item)
 
 if (pickupTarget && keyboard_check_pressed(ord("E")))
 {
-	var item = layer_instance_get_instance(pickupTarget);
-	player_inv.add(item.item_id.name,item.item_id.object,item.item_id.sprite);
-	instance_destroy(item);
+	var item = pickupTarget.item_id;
+	player_inv.add(item.name,item.object,item.sprite);
+	instance_destroy(pickupTarget);
+	pickupTarget = noone;
 }
 
 #endregion
