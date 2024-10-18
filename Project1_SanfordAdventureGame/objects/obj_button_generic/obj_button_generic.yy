@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_block",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_button_generic",
+  "eventList":[],
   "managed":true,
-  "name":"obj_block",
+  "name":"obj_button_generic",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -30,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_block",
-    "path":"sprites/spr_block/spr_block.yy",
+    "name":"spr_dialogue",
+    "path":"sprites/spr_dialogue/spr_dialogue.yy",
   },
   "spriteMaskId":null,
   "visible":true,
