@@ -1,5 +1,4 @@
-// Script assets have changed for v2.3.0 see
-// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
+// None of this could exist without the great people of gamemaker tutorials
 // https://gamemaker.io/en/tutorials/coffee-break-tutorial-easy-typewriter-dialogue-gml
 
 function call_dialogue(text_field) {
