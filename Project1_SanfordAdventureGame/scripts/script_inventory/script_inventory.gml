@@ -27,13 +27,14 @@ function Inventory(maxItems = 5) constructor
 	inventory_maxItems = maxItems;
 	
 	#region Setters
-	add = function(nm,obj)
+	add = function(nm,obj,spr)
 	{
 		if (array_length(inventory) < inventory_maxItems)
 		{
 			array_push(inventory,{
 				name: nm,
 				object: obj,
+				sprite: spr,
 				hover: false
 			});
 		}

@@ -9,8 +9,8 @@ if (numPress != -1)
 	show_debug_message("numPress: {0}", numPress);
 	with(player_inv)
 	{
-		select(numPress);
-		currItem = get(numPress);
+		select(numPress-1);
+		currItem = get(numPress-1);
 	}
 }
 
@@ -26,6 +26,25 @@ if (!pickupTarget)
 			other.pickupTarget = id;
 		}
 	}
+}
+else
+{
+	with(pickupTarget)
+	{
+		var item_distance = point_distance(x,y,other.x,other.y);
+		if (item_distance > MAX_PICKUP_DISTANCE)
+		{
+			other.pickupTarget = noone;
+		}
+	}
+}
+
+if (pickupTarget && keyboard_check_pressed(ord("E")))
+{
+	var item = pickupTarget.item_id;
+	player_inv.add(item.name,item.object,item.sprite);
+	instance_destroy(pickupTarget);
+	pickupTarget = noone;
 }
 
 #endregion
