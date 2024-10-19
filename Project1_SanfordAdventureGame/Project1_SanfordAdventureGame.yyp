@@ -127,6 +127,7 @@
     {"id":{"name":"spr_disco_ball","path":"sprites/spr_disco_ball/spr_disco_ball.yy",},},
     {"id":{"name":"spr_door","path":"sprites/spr_door/spr_door.yy",},},
     {"id":{"name":"spr_doorLocked","path":"sprites/spr_doorLocked/spr_doorLocked.yy",},},
+    {"id":{"name":"spr_dormBed","path":"sprites/spr_dormBed/spr_dormBed.yy",},},
     {"id":{"name":"spr_finale_text_1","path":"sprites/spr_finale_text_1/spr_finale_text_1.yy",},},
     {"id":{"name":"spr_finale_text_2","path":"sprites/spr_finale_text_2/spr_finale_text_2.yy",},},
     {"id":{"name":"spr_finale_text_3","path":"sprites/spr_finale_text_3/spr_finale_text_3.yy",},},
