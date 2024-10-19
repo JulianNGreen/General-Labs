@@ -4,20 +4,20 @@
 #region Sprite
 
 if (moveVector_x == 0 || moveVector_y == 0)
-{
+{	
 	if (moveVector_y < 0)
 	{
-		if (sprite_index != spr_player_up) {sprite_index = spr_player_up;}
+		if (sprite_index != spr_enemy_up) {sprite_index = spr_enemy_up;}
 	}
-
+	
 	if (moveVector_y > 0)
 	{
-		if (sprite_index != spr_player_down) {sprite_index = spr_player_down;}
+		if (sprite_index != spr_enemy_down) {sprite_index = spr_enemy_down;}
 	}
-
+	
 	if (moveVector_x != 0)
 	{
-		if (sprite_index != spr_player_side) {sprite_index = spr_player_side;}
+		if (sprite_index != spr_enemy_side) {sprite_index = spr_enemy_side;}
 		image_xscale = sign(moveVector_x);
 	}
 	
