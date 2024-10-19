@@ -10,6 +10,7 @@ if(keyboard_check_pressed(ord("E"))) {
 				x = 896;
 				y = 304;
 			}
+			instance_create_layer(928, 224,"Instances",obj_prize);
 		}else {
 			call_dialogue("That didn't seem like the right move");
 		}
