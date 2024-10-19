@@ -4,5 +4,6 @@
 #region Path checking
 if (!movePath)
 {
-	path	
 }
+
+#endregion

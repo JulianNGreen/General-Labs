@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_marker",
+  "%Name":"obj_exit",
   "eventList":[],
   "managed":true,
-  "name":"obj_marker",
+  "name":"obj_exit",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
