@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_doorLocked",
-    "path":"sprites/spr_doorLocked/spr_doorLocked.yy",
+    "name":"spr_chess_peice",
+    "path":"sprites/spr_chess_peice/spr_chess_peice.yy",
   },
   "spriteMaskId":null,
   "visible":true,
