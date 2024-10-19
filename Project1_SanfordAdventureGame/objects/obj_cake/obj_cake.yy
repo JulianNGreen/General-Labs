@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_disco_ball",
+  "%Name":"obj_cake",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":2,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_disco_ball",
+  "name":"obj_cake",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_disco_ball",
-    "path":"sprites/spr_disco_ball/spr_disco_ball.yy",
+    "name":"spr_cake",
+    "path":"sprites/spr_cake/spr_cake.yy",
   },
   "spriteMaskId":null,
   "visible":true,
