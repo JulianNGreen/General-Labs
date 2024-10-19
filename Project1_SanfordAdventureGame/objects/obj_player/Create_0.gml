@@ -10,6 +10,11 @@ canInteract = true;
 
 #endregion
 
+#region Camera Initialization
+initCamera();
+
+#endregion
+
 #region Player Variables
 moveSpeed = 3;
 moveSpeed_diag = round(sqrt(moveSpeed^2 + moveSpeed^2));
