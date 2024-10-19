@@ -1,9 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_sally",
-  "eventList":[],
+  "%Name":"obj_disco_ball",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_sally",
+  "name":"obj_disco_ball",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -28,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_sally",
-    "path":"sprites/spr_sally/spr_sally.yy",
+    "name":"spr_disco_ball",
+    "path":"sprites/spr_disco_ball/spr_disco_ball.yy",
   },
   "spriteMaskId":null,
   "visible":true,
