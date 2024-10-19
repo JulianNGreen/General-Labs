@@ -4,7 +4,7 @@ if(triggered = false) {
 	triggered = true;
 	switch (cut_scene_number) {
     case 1:
-        call_dialogue("You made it the end");
+        call_dialogue_at_position("You made it the end", 30, 65 );
     break;
 
     case 2:
