@@ -57,6 +57,7 @@
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_prize","path":"objects/obj_prize/obj_prize.yy",},},
     {"id":{"name":"obj_title","path":"objects/obj_title/obj_title.yy",},},
+    {"id":{"name":"rm_finale","path":"rooms/rm_finale/rm_finale.yy",},},
     {"id":{"name":"rm_hub_initial","path":"rooms/rm_hub_initial/rm_hub_initial.yy",},},
     {"id":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"id":{"name":"rm_puzzle_charge","path":"rooms/rm_puzzle_charge/rm_puzzle_charge.yy",},},
@@ -105,6 +106,7 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"rm_finale","path":"rooms/rm_finale/rm_finale.yy",},},
     {"roomId":{"name":"rm_sanford_run_2","path":"rooms/rm_sanford_run_2/rm_sanford_run_2.yy",},},
     {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"roomId":{"name":"rm_sanford_run_2","path":"rooms/rm_sanford_run_2/rm_sanford_run_2.yy",},},
