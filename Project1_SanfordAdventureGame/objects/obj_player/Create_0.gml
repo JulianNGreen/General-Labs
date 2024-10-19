@@ -6,6 +6,7 @@
 depth = 0;
 image_index = 0;
 image_speed = 0;
+canInteract = true;
 
 #endregion
 
@@ -19,7 +20,7 @@ moveSpeed = 3;
 moveSpeed_diag = round(sqrt(moveSpeed^2 + moveSpeed^2));
 moveVector_x = 0;
 moveVector_y = 0;
-play_sound = true;
+chess_link = false;
 
 #region Player Inventory Object
 player_inv = instance_create_layer(0,0,"Instances",obj_inventory);
