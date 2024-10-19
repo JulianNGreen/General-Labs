@@ -2,4 +2,4 @@
 // You can write your code in this editor
 event_inherited()
 
-room_goto(rm_hub_initial);
+room_goto(rm_intro);
