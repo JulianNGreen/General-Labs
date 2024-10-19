@@ -16,6 +16,21 @@ function call_dialogue(text_field) {
 		text[text_current] = string_wrap(text[text_current], text_width);
 	}
 }
+function call_dialogue(text_field, x_offset, y_offset) {
+	var _inst = instance_create_layer(x, y, "Instances", obj_dialogue);
+
+	with(_inst)
+	{
+		text[0] = text_field;
+		show_debug_message("entered text event");
+		text_last = 0;
+		text_width = 150;
+		text_x = obj_player.x - (text_width/4);
+		text_y = obj_player.y - 40;
+		//instance_create_layer(x + 20, y - 30, "Instances", obj_button_generic)
+		text[text_current] = string_wrap(text[text_current], text_width);
+	}
+}
 
 function string_wrap(_text, _width)
 
