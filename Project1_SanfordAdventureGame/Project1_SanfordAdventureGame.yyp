@@ -107,6 +107,7 @@
     {"id":{"name":"spr_player_down","path":"sprites/spr_player_down/spr_player_down.yy",},},
     {"id":{"name":"spr_player_side","path":"sprites/spr_player_side/spr_player_side.yy",},},
     {"id":{"name":"spr_player_up","path":"sprites/spr_player_up/spr_player_up.yy",},},
+    {"id":{"name":"spr_prize","path":"sprites/spr_prize/spr_prize.yy",},},
     {"id":{"name":"spr_quit","path":"sprites/spr_quit/spr_quit.yy",},},
     {"id":{"name":"spr_sally","path":"sprites/spr_sally/spr_sally.yy",},},
     {"id":{"name":"spr_tileSetClassroom","path":"sprites/spr_tileSetClassroom/spr_tileSetClassroom.yy",},},
