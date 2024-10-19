@@ -12,7 +12,7 @@ function call_dialogue(text_field) {
 		text_width = 150;
 		text_x = obj_player.x - (text_width/4);
 		text_y = obj_player.y - 40;
-		instance_create_layer(x + 20, y - 30, "Instances", obj_button_generic)
+		//instance_create_layer(x + 20, y - 30, "Instances", obj_button_generic)
 		text[text_current] = string_wrap(text[text_current], text_width);
 	}
 }

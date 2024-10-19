@@ -40,5 +40,5 @@
     "path":"sprites/spr_inventory_slot/spr_inventory_slot.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

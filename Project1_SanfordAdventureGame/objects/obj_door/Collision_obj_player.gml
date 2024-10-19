@@ -10,7 +10,7 @@ if(keyboard_check_pressed(ord("E")) && !isLocked)
 	}
 	else
 	{
-		obj_player.x = companion_id.x;
+		obj_player.x = companion_id.x + 4;
 		obj_player.y = companion_id.y - 4;
 	}
 }
