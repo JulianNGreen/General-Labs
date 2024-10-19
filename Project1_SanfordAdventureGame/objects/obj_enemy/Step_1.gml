@@ -69,10 +69,11 @@ if (currState == States.CHASE || currState == States.BORED)
 	{
 		var i = 0;
 		while(instance_place(x+move_x,y+move_y,obj_block))
-		{
-			if (i == 8)
+		{	
+			if (i == 2)
 			{
-				currState = States.BORED;
+				move_x = 0;
+				move_y = 0;
 				break;
 			}
 			

@@ -1,6 +1,15 @@
 /// @description Movement, inventory and collisions
 // You can write your code in this editor
 
+#region Check enemy collision
+if (instance_place(x,y,obj_enemy))
+{
+	audio_play_sound(snd_teleport, 1, false)
+	room_restart();
+}
+
+#endregion
+
 #region Inventory
 
 var numPress = getNumPress();

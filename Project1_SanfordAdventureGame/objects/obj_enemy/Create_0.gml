@@ -3,7 +3,6 @@
 #macro MAX_DETECTION_DISTANCE 64
 #macro MAX_TETHER_DISTANCE MAX_DETECTION_DISTANCE*5
 
-
 #region Sprite Initialization
 depth = 2;
 
