@@ -146,6 +146,7 @@
     {"id":{"name":"spr_player_down","path":"sprites/spr_player_down/spr_player_down.yy",},},
     {"id":{"name":"spr_player_side","path":"sprites/spr_player_side/spr_player_side.yy",},},
     {"id":{"name":"spr_player_up","path":"sprites/spr_player_up/spr_player_up.yy",},},
+    {"id":{"name":"spr_prize","path":"sprites/spr_prize/spr_prize.yy",},},
     {"id":{"name":"spr_quit","path":"sprites/spr_quit/spr_quit.yy",},},
     {"id":{"name":"spr_run_one_text_1","path":"sprites/spr_run_one_text_1/spr_run_one_text_1.yy",},},
     {"id":{"name":"spr_run_one_text_2","path":"sprites/spr_run_one_text_2/spr_run_one_text_2.yy",},},

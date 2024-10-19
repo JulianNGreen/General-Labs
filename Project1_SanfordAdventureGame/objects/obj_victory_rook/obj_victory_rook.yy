@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_door",
-    "path":"sprites/spr_door/spr_door.yy",
+    "name":"spr_chess_peice",
+    "path":"sprites/spr_chess_peice/spr_chess_peice.yy",
   },
   "spriteMaskId":null,
   "visible":true,
