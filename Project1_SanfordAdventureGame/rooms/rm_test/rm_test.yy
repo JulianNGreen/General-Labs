@@ -23,7 +23,6 @@
     {"name":"inst_1A0232C4","path":"rooms/rm_test/rm_test.yy",},
     {"name":"dr_1","path":"rooms/rm_test/rm_test.yy",},
     {"name":"dr_2","path":"rooms/rm_test/rm_test.yy",},
-    {"name":"inst_72F8F8E8","path":"rooms/rm_test/rm_test.yy",},
   ],
   "isDnd":false,
   "layers":[
