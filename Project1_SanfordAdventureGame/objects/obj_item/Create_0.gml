@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description Initialize item
 // You can write your code in this editor
 
 item_id = {
