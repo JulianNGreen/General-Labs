@@ -1,18 +1,95 @@
 /// @description Insert description here
 // You can write your code in this editor
+// Thank you Toby Fox for your contribution to GAMING
+// Truly we walk in your footsteps
 if(triggered = false) {
-	triggered = true;
+	//triggered = true;
 	switch (cut_scene_number) {
     case 1:
-        call_dialogue_at_position("You made it the end", 30, 65 );
+        call_dialogue_at_position("You made it the end", 30, 65, 200 );
     break;
-
     case 2:
-        call_dialogue("This is a test case");
-    break;
+		switch(progress) {
+		case 1:
+		if(wait == false) {
+			instance_create_layer(obj_player.x, obj_player.y, "Instances", obj_scene_block)
+			call_dialogue_at_position("You're the first person I've seen... ever!", 1050, 490, 220 );
+			wait = true
+			alarm[0] = 300
+			progress++;
+		}
+		case 2:
+		if(wait == false) {
+			call_dialogue_at_position("I don't know how you ended up in this dusty building,", 1050, 490, 180 );
+			wait = true
+			alarm[0] = 300
+			progress++;
+		}
+		case 3:
+		if(wait == false) {
+			call_dialogue_at_position("but I can help you escape.", 1050, 490, 180 );
+			wait = true
+			alarm[0] = 300
+			progress++;
+		}
+		case 4:
+		if(wait == false) {
+			call_dialogue_at_position("I've unlatched the rest of Sandford for you to progress,", 1050, 490, 180);
+			wait = true
+			alarm[0] = 300
+			progress++;
+		}
+		case 5:
+		if(wait == false) {
+			call_dialogue_at_position("Good luck!", 1050, 490, 180);
+			wait = true
+			alarm[0] = 100
+			progress++;
+		}
+		case 6:
+		if(wait == false) {
+			call_dialogue_at_position("THIS LINE SHOULD NOT BE SEEN", 1050, 490, 180);
+			wait = true
+			alarm[0] = 100
+			progress++;
+		}
+			break;
+			
+		default:
+			dr_sandford_exit.isLocked = false;
+			instance_destroy(obj_scene_block);
+			instance_destroy(obj_dialogue);
+	        instance_destroy(obj_cutscene_trigger);
+		}
+		/*
+			if(wait == false) {
+		        call_dialogue_at_position("You're the first person I've seen... ever", 30, 65 );
+				wait = true
+				alarm[0] = 40
+			if(wait == false) {
+				call_dialogue_at_position("I don't know why you're in this dusty building", 30, 65 );
+				wait = true
+				alarm[0] = 40
+			}
+			//instance_destroy(obj_dialogue);
+			if(wait == false) {
+				call_dialogue_at_position("but I can help you do what you came here for", 30, 65 );
+				wait = true
+				alarm[0] = 40
+			}
+			//instance_destroy(obj_dialogue);
+			if(wait == false) {
+				call_dialogue_at_position("but I can help you do what you came here for", 30, 65 );
+				wait = true
+				alarm[0] = 40
+			}
+
+			//instance_destroy(obj_dialogue);
+			//destroy(obj_scene_block);
+			*/
     
     // more cases (with breaks)
-
+	break;
     default:
         call_dialogue("This is the default case");
 	}
