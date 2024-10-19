@@ -7,15 +7,21 @@ if(keyboard_check_pressed(ord("E")) && can_interact = true) {
 		{
 		
 		}
-		else if(distance_to_object(obj_charge) < 120)
+		else if(distance_to_object(obj_charge) < 90)
 		{
-			call_dialogue("You are close")
-		} else if(distance_to_object(obj_charge) < 220)
+			call_dialogue("You are burning hot");
+		} else if(distance_to_object(obj_charge) < 170)
 		{
-			call_dialogue("You are closer")
-		} else if(distance_to_object(obj_charge) < 620)
+			call_dialogue("You are hot");
+		} else if(distance_to_object(obj_charge) < 250)
 		{
-			call_dialogue("You are far")
+			call_dialogue("You are neutral");
+		} else if(distance_to_object(obj_charge) < 330)
+		{
+			call_dialogue("You are cold");
+		} else if(distance_to_object(obj_charge) < 410)
+		{
+			call_dialogue("You are freezing cold");
 		}
 	}
 	else {
