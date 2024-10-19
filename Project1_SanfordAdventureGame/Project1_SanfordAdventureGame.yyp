@@ -91,6 +91,7 @@
     {"id":{"name":"spr_tileSetNormsLoft","path":"sprites/spr_tileSetNormsLoft/spr_tileSetNormsLoft.yy",},},
     {"id":{"name":"spr_tileSetSanford","path":"sprites/spr_tileSetSanford/spr_tileSetSanford.yy",},},
     {"id":{"name":"spr_title","path":"sprites/spr_title/spr_title.yy",},},
+    {"id":{"name":"Sprite27","path":"sprites/Sprite27/Sprite27.yy",},},
     {"id":{"name":"ts_tileSetClassroom","path":"tilesets/ts_tileSetClassroom/ts_tileSetClassroom.yy",},},
     {"id":{"name":"ts_tileSetNormsLounge","path":"tilesets/ts_tileSetNormsLounge/ts_tileSetNormsLounge.yy",},},
     {"id":{"name":"ts_tileSetSanford","path":"tilesets/ts_tileSetSanford/ts_tileSetSanford.yy",},},
