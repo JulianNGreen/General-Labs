@@ -88,6 +88,7 @@
     {"id":{"name":"script_camera","path":"scripts/script_camera/script_camera.yy",},},
     {"id":{"name":"script_inventory","path":"scripts/script_inventory/script_inventory.yy",},},
     {"id":{"name":"script_wrap","path":"scripts/script_wrap/script_wrap.yy",},},
+    {"id":{"name":"snd_snap","path":"sounds/snd_snap/snd_snap.yy",},},
     {"id":{"name":"snd_stay_calm","path":"sounds/snd_stay_calm/snd_stay_calm.yy",},},
     {"id":{"name":"snd_step","path":"sounds/snd_step/snd_step.yy",},},
     {"id":{"name":"snd_teleport","path":"sounds/snd_teleport/snd_teleport.yy",},},
