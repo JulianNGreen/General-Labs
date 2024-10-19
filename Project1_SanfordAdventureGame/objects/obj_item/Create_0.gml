@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 item_id = {
-	name: "item_rook",
+	name: "item_test",
 	object: object_index,
 	sprite: spr_item_32
 };
