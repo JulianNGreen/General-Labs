@@ -10,7 +10,8 @@ if(keyboard_check_pressed(ord("E"))) {
 				x = 896;
 				y = 304;
 			}
-			instance_create_layer(928, 224,"Instances",obj_prize);
+			var prize = instance_create_layer(928, 224,"Instances",obj_prize);
+			prize.activate_portal = hidden_portal;
 		}else {
 			call_dialogue("That didn't seem like the right move");
 		}
