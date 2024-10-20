@@ -137,7 +137,7 @@ if(triggered = false) {
 		}
 		case 11:
 		if(wait == false) {
-			call_dialogue_at_position("Goodbye, friend", 825, 200, 120);
+			call_dialogue_at_position("Goodbye, friend.", 825, 200, 120);
 			wait = true
 			alarm[0] = 150
 			progress++;
