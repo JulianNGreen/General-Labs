@@ -6,7 +6,6 @@
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
-    {"name":"inst_2FEE6539_1","path":"rooms/rm_intro/rm_intro.yy",},
     {"name":"inst_77482615","path":"rooms/rm_intro/rm_intro.yy",},
     {"name":"inst_573298D2","path":"rooms/rm_intro/rm_intro.yy",},
     {"name":"inst_228534B0","path":"rooms/rm_intro/rm_intro.yy",},
@@ -14,7 +13,6 @@
   "isDnd":false,
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":0,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"$GMRInstance":"v1","%Name":"inst_2FEE6539_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2FEE6539_1","objectId":{"name":"obj_persistent_sound","path":"objects/obj_persistent_sound/obj_persistent_sound.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1056.0,"y":512.0,},
         {"$GMRInstance":"v1","%Name":"inst_77482615","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_77482615","objectId":{"name":"obj_intro_1","path":"objects/obj_intro_1/obj_intro_1.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.375,"scaleY":1.8,"x":176.0,"y":80.0,},
         {"$GMRInstance":"v1","%Name":"inst_573298D2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_573298D2","objectId":{"name":"obj_intro_2","path":"objects/obj_intro_2/obj_intro_2.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.3125,"scaleY":1.6,"x":504.0,"y":216.0,},
         {"$GMRInstance":"v1","%Name":"inst_228534B0","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_228534B0","objectId":{"name":"obj_intro_3","path":"objects/obj_intro_3/obj_intro_3.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.75,"scaleY":2.4,"x":352.0,"y":480.0,},

@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_epilogue_3",
+  "%Name":"obj_cut_title",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":2,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_epilogue_3",
+  "name":"obj_cut_title",
   "overriddenProperties":[],
   "parent":{
     "name":"Cutscenes",
@@ -35,9 +35,12 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_epilogue_3",
-    "path":"sprites/spr_epilogue_3/spr_epilogue_3.yy",
+    "name":"spr_title",
+    "path":"sprites/spr_title/spr_title.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"spr_title",
+    "path":"sprites/spr_title/spr_title.yy",
+  },
   "visible":true,
 }
