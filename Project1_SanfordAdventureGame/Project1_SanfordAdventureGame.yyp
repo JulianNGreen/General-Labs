@@ -129,6 +129,7 @@
     {"id":{"name":"script_camera","path":"scripts/script_camera/script_camera.yy",},},
     {"id":{"name":"script_inventory","path":"scripts/script_inventory/script_inventory.yy",},},
     {"id":{"name":"script_wrap","path":"scripts/script_wrap/script_wrap.yy",},},
+    {"id":{"name":"snd_charge","path":"sounds/snd_charge/snd_charge.yy",},},
     {"id":{"name":"snd_end_theme","path":"sounds/snd_end_theme/snd_end_theme.yy",},},
     {"id":{"name":"snd_gate","path":"sounds/snd_gate/snd_gate.yy",},},
     {"id":{"name":"snd_menu","path":"sounds/snd_menu/snd_menu.yy",},},
