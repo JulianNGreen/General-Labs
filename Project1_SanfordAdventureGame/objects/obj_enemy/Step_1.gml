@@ -22,6 +22,7 @@ if (currState == States.PATROL && instance_exists(obj_player))
 		path_end();
 		path_positionMarker = path_position;
 		currState = States.CHASE;
+		audio_play_sound(snd_step_enemy,1,true);
 	}
 }
 
@@ -97,7 +98,7 @@ if (currState == States.CHASE || currState == States.BORED)
 	#endregion
 	
 	#region Patrol transition
-	if (currState == States.BORED && abs(delta_x) < 3 && abs(delta_y) < 3)
+	if (currState == States.BORED && abs(delta_x) < 4 && abs(delta_y) < 4)
 	{
 		currState = States.PATROL;
 		path_start(path_id,moveSpeed/2,path_action_continue,true);
@@ -110,6 +111,7 @@ if (currState == States.CHASE || currState == States.BORED)
 	if (currState == States.CHASE && point_distance(x,y,path_x_previous,path_y_previous) >= MAX_TETHER_DISTANCE)
 	{
 		currState = States.BORED;	
+		audio_stop_sound(snd_step_enemy);
 	}
 	
 	#endregion

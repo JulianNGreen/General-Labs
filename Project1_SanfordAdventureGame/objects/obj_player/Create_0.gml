@@ -7,6 +7,7 @@ depth = 0;
 image_index = 0;
 image_speed = 0;
 canInteract = true;
+canMove = true;
 
 #endregion
 
@@ -17,7 +18,7 @@ initCamera();
 
 #region Player Variables
 moveSpeed = 3;
-moveSpeed_diag = round(sqrt(moveSpeed^2 + moveSpeed^2));
+moveSpeed_diag = 2;
 moveVector_x = 0;
 moveVector_y = 0;
 

@@ -133,6 +133,7 @@
     {"id":{"name":"snd_menu","path":"sounds/snd_menu/snd_menu.yy",},},
     {"id":{"name":"snd_snap","path":"sounds/snd_snap/snd_snap.yy",},},
     {"id":{"name":"snd_stay_calm","path":"sounds/snd_stay_calm/snd_stay_calm.yy",},},
+    {"id":{"name":"snd_step_enemy","path":"sounds/snd_step_enemy/snd_step_enemy.yy",},},
     {"id":{"name":"snd_step","path":"sounds/snd_step/snd_step.yy",},},
     {"id":{"name":"snd_teleport","path":"sounds/snd_teleport/snd_teleport.yy",},},
     {"id":{"name":"snd_test","path":"sounds/snd_test/snd_test.yy",},},
