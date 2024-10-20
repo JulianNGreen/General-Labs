@@ -42,6 +42,7 @@
     {"name":"inst_6B8BA3DD","path":"rooms/rm_puzzle_chess/rm_puzzle_chess.yy",},
     {"name":"inst_328FD900","path":"rooms/rm_puzzle_chess/rm_puzzle_chess.yy",},
     {"name":"inst_50D6A42E","path":"rooms/rm_puzzle_chess/rm_puzzle_chess.yy",},
+    {"name":"inst_3EE8AA6B","path":"rooms/rm_puzzle_chess/rm_puzzle_chess.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -112,6 +113,7 @@
         {"$GMRInstance":"v1","%Name":"inst_50D6A42E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_50D6A42E","objectId":{"name":"obj_chess_gen","path":"objects/obj_chess_gen/obj_chess_gen.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_chess_gen","path":"objects/obj_chess_gen/obj_chess_gen.yy",},"propertyId":{"name":"piece_type","path":"objects/obj_chess_gen/obj_chess_gen.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"6",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":928.0,"y":304.0,},
+        {"$GMRInstance":"v1","%Name":"inst_3EE8AA6B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3EE8AA6B","objectId":{"name":"obj_chess_mini","path":"objects/obj_chess_mini/obj_chess_mini.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":272.0,"y":288.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tiles_1","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_1","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":48,"SerialiseWidth":86,"TileCompressedData":[
           -645,-2147483648,-32,81,-54,-2147483648,-32,81,-54,-2147483648,-32,81,-54,-2147483648,-32,81,-54,-2147483648,
