@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-#macro MAX_DETECTION_DISTANCE 64
-#macro MAX_TETHER_DISTANCE MAX_DETECTION_DISTANCE*5
+#macro MAX_DETECTION_DISTANCE 60
+#macro MAX_TETHER_DISTANCE MAX_DETECTION_DISTANCE*6
 
 #region Sprite Initialization
 depth = 2;
@@ -15,8 +15,8 @@ enum States {
 	BORED
 }
 
-moveSpeed = obj_player.moveSpeed - 1;
-moveSpeed_diag = round(sqrt(moveSpeed^2 + moveSpeed^2));
+moveSpeed = obj_player.moveSpeed;
+moveSpeed_diag = obj_player.moveSpeed_diag - 1;
 moveVector_x = 0;
 moveVector_y = 0;
 

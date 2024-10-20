@@ -97,7 +97,7 @@ if (currState == States.CHASE || currState == States.BORED)
 	#endregion
 	
 	#region Patrol transition
-	if (currState == States.BORED && abs(delta_x) < 3 && abs(delta_y) < 3)
+	if (currState == States.BORED && abs(delta_x) < 4 && abs(delta_y) < 4)
 	{
 		currState = States.PATROL;
 		path_start(path_id,moveSpeed/2,path_action_continue,true);
