@@ -6,7 +6,6 @@
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
-    {"name":"inst_2FEE6539_1_1_2","path":"rooms/rm_transition_chess/rm_transition_chess.yy",},
     {"name":"inst_5452FEA8","path":"rooms/rm_transition_chess/rm_transition_chess.yy",},
     {"name":"inst_704F9E81","path":"rooms/rm_transition_chess/rm_transition_chess.yy",},
     {"name":"inst_532E9DDC","path":"rooms/rm_transition_chess/rm_transition_chess.yy",},
@@ -14,7 +13,6 @@
   "isDnd":false,
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":0,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"$GMRInstance":"v1","%Name":"inst_2FEE6539_1_1_2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2FEE6539_1_1_2","objectId":{"name":"obj_persistent_sound","path":"objects/obj_persistent_sound/obj_persistent_sound.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1056.0,"y":512.0,},
         {"$GMRInstance":"v1","%Name":"inst_5452FEA8","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5452FEA8","objectId":{"name":"obj_chess_text_1","path":"objects/obj_chess_text_1/obj_chess_text_1.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.625,"scaleY":2.9999998,"x":336.0,"y":128.0,},
         {"$GMRInstance":"v1","%Name":"inst_704F9E81","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_704F9E81","objectId":{"name":"obj_chess_text_2","path":"objects/obj_chess_text_2/obj_chess_text_2.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.375,"scaleY":2.0,"x":336.0,"y":368.0,},
         {"$GMRInstance":"v1","%Name":"inst_532E9DDC","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_532E9DDC","objectId":{"name":"obj_chess_text_3","path":"objects/obj_chess_text_3/obj_chess_text_3.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.625,"scaleY":2.4,"x":304.0,"y":592.0,},
