@@ -34,7 +34,7 @@
   ],
   "name":"spr_enemy_up",
   "nineSlice":null,
-  "origin":1,
+  "origin":4,
   "parent":{
     "name":"Sprites",
     "path":"folders/Sprites.yy",
@@ -120,7 +120,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":12,
-    "yorigin":0,
+    "yorigin":12,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

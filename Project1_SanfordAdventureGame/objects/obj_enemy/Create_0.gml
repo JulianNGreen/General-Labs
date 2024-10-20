@@ -20,13 +20,21 @@ moveSpeed_diag = obj_player.moveSpeed_diag - 1;
 moveVector_x = 0;
 moveVector_y = 0;
 
-playChaseSound = false;
-
 path_x_previous = 0;
 path_y_previous = 0;
 path_positionMarker = 0;
 
-path_start(path_id,moveSpeed/2,path_action_continue,true);
+path_action = 0;
+if (path_get_closed(path_id))
+{
+	path_action = path_action_continue;
+}
+else
+{
+	path_action = path_action_reverse;
+}
+
+path_start(path_id,moveSpeed/2,path_action,true);
 currState = States.PATROL;
 
 #endregion
