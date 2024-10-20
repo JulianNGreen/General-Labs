@@ -70,6 +70,7 @@
     {"id":{"name":"obj_dialogue","path":"objects/obj_dialogue/obj_dialogue.yy",},},
     {"id":{"name":"obj_disco_ball","path":"objects/obj_disco_ball/obj_disco_ball.yy",},},
     {"id":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},},
+    {"id":{"name":"obj_dorm_bed","path":"objects/obj_dorm_bed/obj_dorm_bed.yy",},},
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},},
     {"id":{"name":"obj_epilogue_1","path":"objects/obj_epilogue_1/obj_epilogue_1.yy",},},
     {"id":{"name":"obj_epilogue_2","path":"objects/obj_epilogue_2/obj_epilogue_2.yy",},},
