@@ -20,6 +20,7 @@ if (keyboard_check_pressed(ord("T")))
 {
 	room_goto(rm_sanford_run_2);
 }
+
 if (keyboard_check_pressed(ord("C")))
 {
 	room_goto(rm_puzzle_chess);

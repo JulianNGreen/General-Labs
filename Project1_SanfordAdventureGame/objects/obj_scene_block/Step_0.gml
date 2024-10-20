@@ -5,6 +5,11 @@ if (instance_exists(obj_player))
 {
 	if (instance_place(x,y,obj_player))
 	{
-		obj_player.canMove = false;
+		with (obj_player)
+		{
+			canMove = false;
+			moveVector_x = 0;
+			moveVector_y = 0;
+		}
 	}
 }

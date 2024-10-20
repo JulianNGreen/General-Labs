@@ -3,6 +3,10 @@
 
 if(keyboard_check_pressed(ord("E")) && !isLocked) 
 {
+	with (obj_enemy)
+	{
+		currState = States.BORED;	
+	}
 	if (isExit)
 	{
 		audio_play_sound(snd_teleport, 1, false);
