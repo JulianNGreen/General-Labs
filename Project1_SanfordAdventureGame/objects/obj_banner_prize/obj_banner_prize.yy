@@ -8,7 +8,9 @@
   ],
   "managed":true,
   "name":"obj_banner_prize",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_prize","path":"objects/obj_prize/obj_prize.yy",},"propertyId":{"name":"itemAcquired","path":"objects/obj_prize/obj_prize.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"Banner Acquired\"",},
+  ],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",

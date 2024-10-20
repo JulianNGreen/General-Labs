@@ -29,6 +29,8 @@
   "physicsStartAwake":true,
   "properties":[
     {"$GMObjectProperty":"v1","%Name":"activate_portal","filters":[],"listItems":[],"multiselect":false,"name":"activate_portal","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"dr_sanford_run_1","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"score_amount","filters":[],"listItems":[],"multiselect":false,"name":"score_amount","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"itemAcquired","filters":[],"listItems":[],"multiselect":false,"name":"itemAcquired","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"\"Item Acquired\"","varType":2,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
