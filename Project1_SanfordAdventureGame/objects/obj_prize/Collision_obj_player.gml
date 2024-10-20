@@ -3,5 +3,5 @@
 if(keyboard_check_pressed(ord("E"))) {
 	score = score_amount;
 	instance_destroy();
-	call_dialogue("Wicked sick, like totally rad man, item collected");
+	call_dialogue(itemAcquired);
 }
