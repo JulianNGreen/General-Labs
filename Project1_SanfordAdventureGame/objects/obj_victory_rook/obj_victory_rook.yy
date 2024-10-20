@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_chess_peice",
-    "path":"sprites/spr_chess_peice/spr_chess_peice.yy",
+    "name":"spr_chess_piece",
+    "path":"sprites/spr_chess_piece/spr_chess_piece.yy",
   },
   "spriteMaskId":null,
   "visible":true,
