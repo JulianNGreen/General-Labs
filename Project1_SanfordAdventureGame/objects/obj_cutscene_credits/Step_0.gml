@@ -9,16 +9,5 @@ if(fade_in == false) {
 	}
 	else { 
 		fade_in = true;
-		fade_out = false
-	}
-}
-if(fade_out == false) {
-	fade_out = true
-	if(image_alpha > 0) {
-		image_alpha = image_alpha - .01;
-		alarm[3] = 2
-	}
-	else { 
-		room_goto_next();
 	}
 }

@@ -1,22 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"obj_epilogue_3",
+  "%Name":"obj_cutscene_credits",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":2,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_epilogue_3",
+  "name":"obj_cutscene_credits",
   "overriddenProperties":[],
   "parent":{
     "name":"Cutscenes",
     "path":"folders/Objects/Cutscenes.yy",
   },
-  "parentObjectId":{
-    "name":"obj_cutscene_credits",
-    "path":"objects/obj_cutscene_credits/obj_cutscene_credits.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -34,10 +31,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_epilogue_3",
-    "path":"sprites/spr_epilogue_3/spr_epilogue_3.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
