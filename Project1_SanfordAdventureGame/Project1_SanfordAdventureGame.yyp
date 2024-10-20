@@ -141,6 +141,7 @@
     {"id":{"name":"spr_charge_text_2","path":"sprites/spr_charge_text_2/spr_charge_text_2.yy",},},
     {"id":{"name":"spr_charge_text_3","path":"sprites/spr_charge_text_3/spr_charge_text_3.yy",},},
     {"id":{"name":"spr_charge_text_4","path":"sprites/spr_charge_text_4/spr_charge_text_4.yy",},},
+    {"id":{"name":"spr_chess_piece_inventory","path":"sprites/spr_chess_piece_inventory/spr_chess_piece_inventory.yy",},},
     {"id":{"name":"spr_chess_piece","path":"sprites/spr_chess_piece/spr_chess_piece.yy",},},
     {"id":{"name":"spr_chess_text_1","path":"sprites/spr_chess_text_1/spr_chess_text_1.yy",},},
     {"id":{"name":"spr_chess_text_2","path":"sprites/spr_chess_text_2/spr_chess_text_2.yy",},},
