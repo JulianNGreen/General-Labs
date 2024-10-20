@@ -2,6 +2,7 @@
 // You can write your code in this editor
 if(keyboard_check_pressed(ord("E"))) {
 	if(obj_inventory.currItem != noone && canInteract) {
+		instance_destroy(obj_dialogue);
 		alarm[1] = 20;
 		canInteract = false;
 		if(obj_inventory.currItem.object == obj_victory_rook) {
