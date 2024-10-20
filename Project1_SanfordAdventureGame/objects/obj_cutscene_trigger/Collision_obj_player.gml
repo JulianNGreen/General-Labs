@@ -67,35 +67,35 @@ if(triggered = false) {
 		case 1:
 		if(wait == false) {
 			instance_create_layer(obj_player.x, obj_player.y, "Instances", obj_scene_block)
-			call_dialogue_at_position("You made it all the way to the end,", 825, 200, 200 );
+			call_dialogue_at_position("You made it all the way to the end,", 825, 200, 130 );
 			wait = true
 			alarm[0] = 300
 			progress++;
 		}
 		case 2:
 		if(wait == false) {
-			call_dialogue_at_position("The exit is behind me.", 825, 200, 120 );
+			call_dialogue_at_position("The exit is behind me.", 825, 200, 130 );
 			wait = true
 			alarm[0] = 300
 			progress++;
 		}
 		case 3:
 		if(wait == false) {
-			call_dialogue_at_position("You can escape Sanford,", 825, 200, 120 );
+			call_dialogue_at_position("You can escape Sanford,", 825, 200, 130 );
 			wait = true
 			alarm[0] = 300
 			progress++;
 		}
 		case 4:
 		if(wait == false) {
-			call_dialogue_at_position("just like everyone always does. ;(", 825, 200, 120);
+			call_dialogue_at_position("just like everyone always does. ;(", 825, 200, 130);
 			wait = true
 			alarm[0] = 300
 			progress++;
 		}
 		case 5:
 		if(wait == false) {
-			call_dialogue_at_position("Why did you come here?", 825, 200, 120);
+			call_dialogue_at_position("Why did you come here?", 825, 200, 130);
 			wait = true
 			alarm[0] = 200
 			progress++;
@@ -103,42 +103,42 @@ if(triggered = false) {
 		case 6:
 		if(wait == false) {
 			obj_party.fade_in = false;
-			call_dialogue_at_position("You came to release me?", 825, 200, 120);
+			call_dialogue_at_position("You came to release me?", 825, 200, 130);
 			wait = true
 			alarm[0] = 150
 			progress++;
 		}
 		case 7:
 		if(wait == false) {
-			call_dialogue_at_position("...", 825, 200, 120);
+			call_dialogue_at_position("...", 825, 200, 130);
 			wait = true
 			alarm[0] = 200
 			progress++;
 		}
 		case 8:
 		if(wait == false) {
-			call_dialogue_at_position("Thank You! Thank You!", 825, 200, 120);
+			call_dialogue_at_position("Thank You! Thank You!", 825, 200, 130);
 			wait = true
 			alarm[0] = 150
 			progress++;
 		}
 		case 9:
 		if(wait == false) {
-			call_dialogue_at_position("...", 825, 200, 120);
+			call_dialogue_at_position("...", 825, 200, 130);
 			wait = true
 			alarm[0] = 100
 			progress++;
 		}
 		case 10:
 		if(wait == false) {
-			call_dialogue_at_position("thank you, I can finally rest.", 825, 200, 120);
+			call_dialogue_at_position("thank you, I can finally rest.", 825, 200, 130);
 			wait = true
 			alarm[0] = 300
 			progress++;
 		}
 		case 11:
 		if(wait == false) {
-			call_dialogue_at_position("Goodbye, friend.", 825, 200, 120);
+			call_dialogue_at_position("Goodbye, friend.", 825, 200, 130);
 			wait = true
 			alarm[0] = 150
 			progress++;
