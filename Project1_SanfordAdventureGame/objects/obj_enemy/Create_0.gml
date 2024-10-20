@@ -20,6 +20,8 @@ moveSpeed_diag = obj_player.moveSpeed_diag - 1;
 moveVector_x = 0;
 moveVector_y = 0;
 
+playChaseSound = false;
+
 path_x_previous = 0;
 path_y_previous = 0;
 path_positionMarker = 0;

@@ -4,7 +4,8 @@
 #region Check enemy collision
 if (instance_place(x,y,obj_enemy))
 {
-	audio_play_sound(snd_teleport, 1, false)
+	audio_stop_sound(snd_step_enemy);
+	audio_play_sound(snd_teleport, 1, false);
 	room_restart();
 }
 
@@ -62,32 +63,35 @@ if (pickupTarget && keyboard_check_pressed(ord("E")))
 
 #region Movement
 
-#region Speed Calculation
-moveVector_x = (keyboard_check(vk_right)-keyboard_check(vk_left));
-moveVector_y = (keyboard_check(vk_down)-keyboard_check(vk_up));
-var objSpeed = moveSpeed;
-
-// Handle diagonal movement
-if (moveVector_x != 0 && moveVector_y != 0)
+if (canMove)
 {
-	objSpeed = moveSpeed_diag;
+	#region Speed Calculation
+	moveVector_x = (keyboard_check(vk_right)-keyboard_check(vk_left));
+	moveVector_y = (keyboard_check(vk_down)-keyboard_check(vk_up));
+	var objSpeed = moveSpeed;
+
+	// Handle diagonal movement
+	if (moveVector_x != 0 && moveVector_y != 0)
+	{
+		objSpeed = moveSpeed_diag;
+	}
+
+	var move_x = objSpeed*moveVector_x;
+	var move_y = objSpeed*moveVector_y;
+
+	#endregion
+
+	#region Collisions
+	if instance_place(x+move_x,y+move_y,obj_block)
+	{
+		move_x = 0;
+		move_y = 0;
+	}
+
+	// Once calculations and collisions have been handled, move player
+	x += move_x;
+	y += move_y; 
 }
-
-var move_x = objSpeed*moveVector_x;
-var move_y = objSpeed*moveVector_y;
-
-#endregion
-
-#region Collisions
-if instance_place(x+move_x,y+move_y,obj_block)
-{
-	move_x = 0;
-	move_y = 0;
-}
-
-// Once calculations and collisions have been handled, move player
-x += move_x;
-y += move_y; 
 
 #endregion
 
