@@ -13,7 +13,7 @@ if(triggered = false) {
 		case 1:
 		if(wait == false) {
 			instance_create_layer(obj_player.x, obj_player.y, "Instances", obj_scene_block)
-			call_dialogue_at_position("You're the first person I've seen... ever!", 1050, 490, 220 );
+			call_dialogue_at_position("You're the first person I've seen... in a while!", 1050, 490, 220 );
 			wait = true
 			alarm[0] = 300
 			progress++;
@@ -57,6 +57,7 @@ if(triggered = false) {
 			
 		default:
 			dr_sandford_exit.isLocked = false;
+			instance_destroy(obj_sally);
 			instance_destroy(obj_scene_block);
 			instance_destroy(obj_dialogue);
 	        instance_destroy(obj_cutscene_trigger);
@@ -137,7 +138,7 @@ if(triggered = false) {
 		}
 		case 11:
 		if(wait == false) {
-			call_dialogue_at_position("Goodbye, friend", 825, 200, 120);
+			call_dialogue_at_position("Goodbye, friend.", 825, 200, 120);
 			wait = true
 			alarm[0] = 150
 			progress++;

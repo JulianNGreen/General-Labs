@@ -15,8 +15,8 @@ if(fade_in == false) {
 if(fade_out == false) {
 	fade_out = true
 	if(image_alpha > 0) {
-		image_alpha = image_alpha - .05;
-		alarm[3] = 5
+		image_alpha = image_alpha - .01;
+		alarm[3] = 2
 	}
 	else { 
 		room_goto_next();

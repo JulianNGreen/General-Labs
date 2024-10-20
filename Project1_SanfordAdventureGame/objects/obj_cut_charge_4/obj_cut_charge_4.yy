@@ -9,7 +9,10 @@
     "name":"Cutscenes",
     "path":"folders/Objects/Cutscenes.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_cutscene_parent",
+    "path":"objects/obj_cutscene_parent/obj_cutscene_parent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
