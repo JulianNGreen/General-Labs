@@ -33,7 +33,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_enemy_down",
+    "path":"sprites/spr_enemy_down/spr_enemy_down.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
